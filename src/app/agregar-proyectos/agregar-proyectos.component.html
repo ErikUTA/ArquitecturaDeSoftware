@@ -1,0 +1,40 @@
+<div class="body">
+    <mat-card class="card-login">
+        <div class="form">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div style="padding-top: 20px;">
+                    <div class="text-center d-flex u">
+                        <button class="btn btn-dark button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                          </svg></button>
+                        <div class="text-center col-12">
+                            <h1 class="title mb-12">Agregar proyecto</h1>
+                        </div>
+                    </div>                
+                    <div class="row g-3 align-items-center mt-12">
+                        <div class="col-12">
+                            <label for="inputPassword6" class="col-form-label texto">Nombre</label>
+                            <input type="text" id="inputPassword6" class="form-control input" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputPassword6" class="col-form-label texto">Responsable</label>
+                            <input type="text" id="inputPassword6" class="form-control input" aria-describedby="passwordHelpInline">                    
+                        </div>                
+                        <div class="col-12">
+                            <label for="inputPassword6" class="col-form-label texto">Notas</label>
+                            <input type="text" id="inputPassword6" class="form-control input" aria-describedby="passwordHelpInline">                    
+                        </div>                
+                        <div class="col-12">
+                            <label for="inputPassword6" class="col-form-label texto">Recursos</label>
+                            <input type="file" id="inputPassword6" class="form-control input"
+                                aria-describedby="passwordHelpInline">
+                            <button class="btn bg-dark col-12 mt-4 text-white" [routerLink]="['/dashboard']">Enviar</button>                        
+                        </div>                
+                    </div>                
+                </div>
+            </div>
+        </div>
+    
+        <div class="image"></div>
+    </mat-card>
+</div>

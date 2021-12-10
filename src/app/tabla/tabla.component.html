@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(16, 33, 54);">
+    <div class="container-fluid">
+        <a class="navbar-brand n" href="#"><img src="../../assets/house.png" style="width: 30px; height: 30px; color: white;"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">            
+            <strong class="navbar-text text-white">
+                Administrador
+            </strong>
+        </div>
+        <a class="navbar-brand n" href="#"><img src="../../assets/logout.jpg" style="width: 20px; height: 25px; color: white;" /></a>
+    </div>
+</nav>
+
+<div class="home d-flex">
+    <div class="sidebar text-center" style="background: rgb(16, 33, 54);">
+        <div>            
+            <button class="btnSideBar btn btn-outline-light mt-2">Tareas</button>
+            <button class="btnSideBar btn btn-outline-light mt-2">Proyectos</button>
+            <button class="btnSideBar btn btn-outline-light mt-2">Usuarios</button>            
+            <button class="btnSideBar btn btn-outline-light mt-2">Ver más</button>
+        </div>
+    </div>
+    <div class="menuCards col-10">    
+        <table class="table table-dark table-striped" style="border-radius: 15px;">
+            <thead>
+                <tr>
+                  <th scope="col">No.</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Email</th>                  
+                  <th scope="col">rol</th>                  
+                  <th scope="col">Eliminar/Editar</th>                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto@gmail.com</td>
+                  <td>User</td>
+                  <td class="d-flex btn-group">
+                    <button class="btn btn-warning">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>User</td>
+                  <td class="d-flex btn-group">
+                    <button class="btn btn-warning">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry the Bird</td>                  
+                  <td>Thornton@gmail.com</td>
+                  <td>User</td>
+                  <td class="d-flex btn-group">
+                      <button class="btn btn-warning">Editar</button>
+                      <button class="btn btn-danger">Eliminar</button>
+                  </td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+</div>
